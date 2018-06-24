@@ -1,0 +1,129 @@
+body {
+  font-size: 1.5em;
+}
+p, q, a{
+  font-family: 'Roboto Slab', serif;
+}
+h1, h2{
+  font-family: 'Atma';
+}
+.menu{
+  font-family: 'Atma';
+  font-size: 1.1em;
+}
+#profilepic{
+  height: 25vh;
+  transition: all 0.5s ease-in-out;
+}
+#profilepic:hover {
+  transform: scale(1.1);
+}
+#section1 {
+  margin-top: -20px;
+  padding-top:20px; 
+  padding-bottom: 20px;
+  color:#00303F;
+  background-image: url(assets/sunflower2.jpg);
+  text-align:center;
+}
+#section1 h1{
+  font-size: 3.5em;
+}
+.parallax {
+  min-height: 30vh; 
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#partwo{
+  background-image: url(assets/pencil.jpg);
+}
+#section2 {  
+  padding: 30px;
+  color:#00303F;
+  background-color: #CAE4DB;
+}
+#section3 {
+  padding-top:10px;
+  padding-bottom: 30px;
+  color:#00303F;
+  background-color: #7A9D96;
+}
+#section3 h2{
+  text-align: center;
+}
+.item{
+  max-height:40vh;
+}
+#section4 {
+  padding:30px;
+  color:#DCAE1D;
+  background-color: #00303F;
+}
+#section5 {
+  padding:30px;
+  color:#00303F;
+  background-color: #CAE4DB;
+}
+#section6 {
+  padding:30px;
+  color:#00303F;
+  background-color: #7A9D96;
+}
+#section7{
+  padding:30px;
+  color:#DCAE1D;
+  background-color: #00303F;
+}
+#section7 ul {
+  list-style-type: none;
+  vertical-align: middle;
+  padding-top: 20px;
+}
+#section7 li{
+  display:inline;
+  margin-right:5%;
+}
+#date{
+  float: right;
+}
+@media (min-width: 480px){
+  body{
+    font-size: 1.6em;
+  }
+}
+@media (min-width: 768px) {
+  #section6 {
+    width: 50vw;
+  }
+  .container-sm-6 {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .row-sm-6 {
+    display:table-row;
+  }
+  .col-sm-6 {
+    display:table-cell;
+    float:none;
+  }
+}
+@media (min-width: 992px) {
+  #dia{
+    max-width:40vw;
+  }
+  .container-md-6 {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .row-md-6 {
+    display:table-row;
+  }
+  .col-md-6 {
+    display:table-cell;
+    float:none;
+  }
+}
