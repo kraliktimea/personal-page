@@ -24,6 +24,7 @@ h1, h2{
   padding-bottom: 20px;
   color:#00303F;
   background-image: url(assets/sunflower2.jpg);
+  background-position:center;
   text-align:center;
 }
 #section1 h1{
